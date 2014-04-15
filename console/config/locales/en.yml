@@ -1,5 +1,5 @@
 en:
-  unknown: 'A system error has occurred.  If the problem persists, please contact Red Hat support.'
+  unknown: 'A system error has occurred.  If the problem persists, please contact support: dl-paas-support@worldline.com'
 
   types:
     php: PHP
