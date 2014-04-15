@@ -10,11 +10,11 @@ module Console::ConsoleHelper
 
   def product_branding
     [
-      image_tag('/assets/logo-origin.svg', :alt => 'OpenShift Origin')
+      image_tag('/assets/logo-zone52.png', :alt => 'Zone52')
     ].join.html_safe
   end
 
   def product_title
-    'OpenShift Origin'
+    'Zone52'
   end
 end
