@@ -49,6 +49,7 @@ function start() {
     exit 0
   fi
   JENKINS_CMD="/etc/alternatives/jre/bin/java \
+      -Djsse.enableSNIExtension=false \
       -Xmx168m \
       -XX:MaxPermSize=100m \
       -Dcom.sun.akuma.Daemon=daemonized \
